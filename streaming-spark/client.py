@@ -2,7 +2,7 @@ import socket
 import time
 
 HOST = 'localhost'
-PORT = 3000
+PORT = 3001
 
 s = socket.socket()
 s.connect((HOST, PORT))

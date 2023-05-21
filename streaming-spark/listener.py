@@ -2,7 +2,7 @@ import socket
 import time
 
 HOST = 'localhost'
-PORT = 3000
+PORT = 3001
 
 
 s = socket.socket()
@@ -27,6 +27,6 @@ messages = [
 for message in messages:
     message = bytes(message, 'utf-8')
     conn.send(message)
-    time.sleep(4)
+    time.sleep(1)
 
 conn.close()
