@@ -12,7 +12,7 @@ spark = SparkSession.builder.appName('SparkStreaming').getOrCreate()
 tweets = spark.readStream\
     .format('socket')\
         .option('host','localhost')\
-        .option('port',9000)\
+        .option('port',8001)\
         .load()
 
 

@@ -3,7 +3,7 @@ import tweepy
 import time
 
 HOST = 'localhost'
-PORT = 9000
+PORT = 8001
 
 
 s = socket.socket()
