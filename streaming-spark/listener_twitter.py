@@ -15,7 +15,7 @@ connection, address = s.accept()
 print(f"Recebendo solicitação de {address}")
 
 token = 'AAAAAAAAAAAAAAAAAAAAAGyzlQEAAAAAaMWf55m0Dzy%2Fugc%2BGnVxP6Pp6h4%3DykHqTs8KhSU8rBIy6ah0z6nzSCG9ZQsWAVO3ZDm6LJHXoPNsB1'
-keyword = 'biblioteconomia' 
+keyword = 'Biblioteconomia' 
 
 class GetTweets(tweepy.StreamingClient):
     
